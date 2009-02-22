@@ -1,0 +1,1 @@
+打开Fig文件后，File\Export Setup\Rendering -- Resolution

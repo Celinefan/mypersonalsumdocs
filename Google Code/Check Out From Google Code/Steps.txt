@@ -1,0 +1,10 @@
+1. Install TortoiseSVN
+
+2. Right Click in your download Directory, choose "SVN Checkout..."
+
+3. Input the "URL of repository", which would be sth like "https://tm-stopwatch.googlecode.com/svn/trunk/"
+   Please Refer to your Google Code Project's "Source"/"Checkout"
+   
+4. Authentication Information
+	"Username" refer to your Google Code "Profile"/"MyProfile"/"Username" 
+	"Password" refer to your Google Code "Profile"/"Settings"/"GoogleCode.com Password"

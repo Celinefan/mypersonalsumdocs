@@ -1,0 +1,38 @@
+Guides: Using Git and Github for the Windows for newbies
+http://github.com/guides/using-git-and-github-for-the-windows-for-newbies
+
+Setting Up Ruby on Rails Projects with Git and Github
+http://beans.seartipy.com/2008/12/09/setting-up-ruby-on-rails-projects-with-git-and-github/
+
+活灵活现用Git-基础篇
+http://phoenixtoday.blogbus.com/logs/33458940.html
+活灵活现用Git-技巧篇
+http://phoenixtoday.blogbus.com/logs/35149540.html
+
+首次连入GitHub(主要查看GitHub的帮助):
+
+Administrator@851EDB894CEF424 ~
+$ cd /f/"My Work Notes"
+
+Administrator@851EDB894CEF424 /f/My Work Notes
+$ git config --global user.email chenmo1984@gmail.com
+
+Administrator@851EDB894CEF424 /f/My Work Notes
+$ git remote add origin git@github.com:Celinefan/docup2date.git
+
+Administrator@851EDB894CEF424 /f/My Work Notes
+$ git push origin master
+The authenticity of host 'github.com (65.74.177.129)' can't be established.
+RSA key fingerprint is 16:27:ac:a5:76:28:2d:36:63:1b:56:4d:eb:df:a6:48.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added 'github.com,65.74.177.129' (RSA) to the list of known
+ hosts.
+Counting objects: 4, done.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 11.40 KiB, done.
+Total 4 (delta 1), reused 0 (delta 0)
+To git@github.com:Celinefan/docup2date.git
+ * [new branch]      master -> master
+
+Administrator@851EDB894CEF424 /f/My Work Notes
+$
