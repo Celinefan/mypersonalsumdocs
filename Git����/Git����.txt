@@ -17,6 +17,11 @@ Existing Git Repo?
   cd existing_git_repo
   git remote add origin git@github.com:Celinefan/mypersonalsumdocs.git
   git push origin master
+  
+  
+How to delete Repo in GitHub:
+Login / "dashboard" / "Your Repositories" --> Choose your repository / "edit"(just right to your repository's name)
+/ "Administration" --> "Delete This Repository¡­"(Almost at the bottom of the page)
 
 
 
