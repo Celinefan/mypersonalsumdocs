@@ -1,3 +1,25 @@
+范例：GitHub新建Repo提示：
+Global setup:
+  Download and install Git
+  git config --global user.email chenmo1984@gmail.com
+      
+Next steps:
+  mkdir mypersonalsumdocs
+  cd mypersonalsumdocs
+  git init
+  touch README
+  git add README
+  git commit -m 'first commit'
+  git remote add origin git@github.com:Celinefan/mypersonalsumdocs.git
+  git push origin master
+      
+Existing Git Repo?
+  cd existing_git_repo
+  git remote add origin git@github.com:Celinefan/mypersonalsumdocs.git
+  git push origin master
+
+
+
 Guides: Using Git and Github for the Windows for newbies
 http://github.com/guides/using-git-and-github-for-the-windows-for-newbies
 
