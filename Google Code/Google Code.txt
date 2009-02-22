@@ -1,0 +1,12 @@
+Google项目托管：
+http://code.google.com/hosting/
+
+Google Code中点“Create a new project”，开始创建一个新的项目，填完相关信息，Google Code会帮你创建一个repository
+
+設定好之後你只要先知道你 repository 的位址（到你 Project 首頁的 Sources 裡去看，會是 https://<你project名稱>.googlecode.com/svn/）就可以了，同時你也要知道你在 Google Code 的密碼，到右上角的 My Profile -> Settings 裡就會有 Google Code 產生的密碼，這個也要記住，因為當你在 commit 的時候會需要用到。
+
+在 Windows 下安装一個有圖形化介面的 subversion 軟體：TortoiseSVN， 安裝這個軟體後，它就會在你檔案總管的右鍵選單中加入 subversion 的相關指令，相當方便易用。
+
+安裝好 TortoiseSVN 之後，在资源管理器里空白处右击，选择Repo-browser，在弹出的URL对话框中输入地址（对于初学者，程序一般先放在、trunk下，所以地址一般为：https://[ProjectName].googlecode.com/svn/trunk/），接下来会让你输入用户名和密码，详细情况查看Google Code上的Profile（用户名在“My Profile”页上，密码在“Settings”页上）。
+
+当TortoiseSVN连上Google Code上的repository后，利用Repo-browser就可以上传你的文件了（可以整个文件夹一起传的）
