@@ -1,0 +1,48 @@
+9:29 2009-2-28
+1. How to : 在学校和寝室同时对一个课题进行研究，并利用GitHub做同步和备份。
+	Steps:
+	A. Create a new repository in GitHub
+	
+	B. Create your local repository.
+	
+	C. In your local repository, add your GitHub repository as a remote, and then Push.
+	cd [existing_git_repo]
+	git remote add origin [Your Clone Url in GitHub]
+	git push origin master
+	
+	D. To Backup in another place, go to the backup direcotry, and then use git-clone command
+	cd [bakup_dir]
+	git clone [Your Clone Url in GitHub]
+	# this will create a dir of your project name, and clone a repository from the GitHub's repository
+	
+	
+	
+	
+	Concepts:
+	A. work may simultaneously proceed along parallel lines of development, called branches, which may merge and diverge.
+	
+	B. Branch
+	A single git repository can track development on multiple branches. 
+	It does this by keeping a list of heads which reference the latest commit on each branch.
+	The "git-branch" command shows you the list of branch heads.
+	
+	Example:
+	Administrator@61C69CF8BED9407 /d/PrjPlay/gitlearning
+	$ git branch
+	boss
+	* master
+	
+	C. Tag
+	A tag is most typically used to mark a particular point in the commit ancestry chain.
+	
+	git-tag - Create, list, delete or verify a tag object signed with GPG
+	http://www.kernel.org/pub/software/scm/git/docs/git-tag.html
+	Example:
+	$ git tag -l <pattern>
+	List tags with names that match the given pattern (or all if no pattern is given). Typing "git tag" without arguments, also lists all tags.
+	
+	D. Checkout Help:
+	http://www.kernel.org/pub/software/scm/git/docs/git-checkout.html
+	Example:
+	$ git checkout -b new v2.6.13
+	# This command will create a branch named "new". Note that v2.6.13 is a tag.
