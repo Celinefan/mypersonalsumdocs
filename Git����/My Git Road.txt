@@ -14,7 +14,10 @@
 	cd [bakup_dir]
 	git clone [Your Clone Url in GitHub]
 	# this will create a dir of your project name, and clone a repository from the GitHub's repository
-	
+
+	E. To Synchronize repository from remote
+	cd [repository need synchronize]
+	git pull [remote] master
 	
 	
 	
