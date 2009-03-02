@@ -49,3 +49,5 @@
 	Example:
 	$ git checkout -b new v2.6.13
 	# This command will create a branch named "new". Note that v2.6.13 is a tag.
+	
+	E. Every commit has a 40-hexdigit id, sometimes called the "object name" or the "SHA1 id".

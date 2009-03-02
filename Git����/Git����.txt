@@ -1,6 +1,7 @@
 常用指令：
 通知服务器修改：git push origin master
 从服务器获取修改：git pull origin master
+注：master可以改为任意分支名
 
 How to pull Repo in GitHub:
 git pull：从其他的版本库（既可以是远程的也可以是本地的）将代码更新到本地，例如：'git pull origin master'就是将origin这个版本库的代码更新到本地的master主支，该功能类似于SVN的update
