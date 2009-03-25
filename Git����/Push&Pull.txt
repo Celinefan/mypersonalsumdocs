@@ -1,0 +1,12 @@
+Command line pull of multiple branches from one repository: 
+
+$ git checkout master
+$ git fetch origin +pu:pu maint:tmp
+$ git pull . tmp
+
+This updates (or creates, as necessary) branches pu and tmp in the local repository by fetching from the branches (respectively) pu and maint from the remote repository.
+
+If the optional plus + is used, the local ref is updated even if it does not result in a fast forward update.
+Thus pu branch will be updated even if it is does not fast-forward; the others will not be.
+
+The final command then merges the newly fetched tmp into master.
